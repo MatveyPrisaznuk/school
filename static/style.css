@@ -1,0 +1,137 @@
+
+body, h1, h2, h3, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .head {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  .active {
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-btn {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .section-1,
+  .section-2 {
+    margin-top: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-div {
+    margin-bottom: 15px;
+  }
+  
+  .input-text {
+    padding: 8px;
+  }
+  
+  .add-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table-div {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .desctibtion-row {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .button-row {
+    display: flex;
+  }
+  
+  .actions-btns {
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    color: #333;
+  }
+  
+  .actions-btns.edit {
+    background-color: #fff;
+  }
+  
+  .actions-btns.delete {
+    background-color: #ff6666;
+    color: #fff;
+  }
+  
